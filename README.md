@@ -1,2 +1,2 @@
 # cintiaflix
-projeto de criaçao sobre site de streaming para a aula de git e github
+projeto de criaçao sobre site de streaming de filmes para a aula de git e github
