@@ -1,0 +1,20 @@
+h1{
+    text-align: center;
+    border: inset 20px blue
+}
+
+body{
+    background-color: #81d4fa;
+}
+
+.letras{
+ font-size:25px;
+}
+
+.enviar{
+    background-color: greenyellow;
+}
+
+.cancelar{
+    background-color: grey;
+}
