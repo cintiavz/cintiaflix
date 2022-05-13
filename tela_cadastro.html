@@ -12,6 +12,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>Cintiaflix</title>
+    <link rel="stylesheet" href="assets/css/cadastro.css">
 </head>
 
 <body>
@@ -27,7 +28,7 @@
         </div>
         <div class="nav-content">
             <ul class="tabs tabs-transparent light-blue lighten-1">
-                <li class="tab"><a class="active" href="#test1">Todos</a></li>
+                <li class="tab"><a class="active" href="index.html">Todos</a></li>
                 <li class="tab"><a href="#test2">Assistidos</a></li>
                 <li class="tab disabled"><a href="#test3">Favoritos</a></li>
             </ul>
@@ -56,25 +57,58 @@
                                 <label for="Produtora">Produtora</label>
                             </div>
                             <div class="row">
-                                    <div class="input-field col s4">
-                                        <input id="Duração" type="number" step=".1" class="validate" require>
-                                        <label for="Duração">Duração</label>
-                                    </div>
+                                <div class="input-field col s4">
+                                    <input id="Nota" type="number" step=".1" min=0 max=10 class="validate" require>
+                                    <label for="Nota">Nota</label>
+                                </div>
 
-                            <div class="row">
-                                <form class="col s12">
-                                    <div class="row">
-                                        <div class="input-field col s12">
-                                            <textarea id="Sinopse" class="materialize-textarea"></textarea>
-                                            <label for="Sinopse">Sinopse</label>
+                                <div class="row">
+                                    <form class="col s12">
+                                        <div class="row">
+                                            <div class="input-field col s12">
+                                                <textarea id="Sinopse" class="materialize-textarea"></textarea>
+                                                <label for="Sinopse">Sinopse</label>
+                                            </div>
                                         </div>
-                                    </div>
-                                </form>
-                            </div>
-                            <div class="card-action">
-                                <a class="btn waves-effect waves-light grey" href="index.html">Cancelar</a>
-                                <a href="#" class="waves-effect waves-light btn green">Salvar</a>
+                                    </form>
+                                    <form class="col s12">
+                                        <div class="row">
+                                            <div class="input-field col s12">
+                                                Duração: <input type="time" name="duração">
+                                            </div>
+                                        </div>
+                                    </form>
+                                    <form class="col s12">
+                                        <div class="row">
+                                            <div class="input-field col s12">
+
+                                                <div>
+                                                    <input type="checkbox" id="subscribeNews" name=""
+                                                        value="newsletter">
+                                                    <label for="subscribeNews"> Destaque? </label>
+                                                </div>
+                                                <div>
+                                                    <button type="submit">Destaque </button>
+                                                </div>
+                                    </form>
+                                    <form class="col s12">
+                                        <div class="row">
+                                            <div class="input-field col s12">
+                                                <input id="Indicação" type="text" class="validate" require>
+                                                <label for="Indicação">Indicação etaria</label>
+                                            </div>
+                                    </form>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
+
+
+                <div class="card-action">
+                    <a class="btn waves-effect waves-light grey" href="index.html">Cancelar</a>
+                    <a href="#" class="waves-effect waves-light btn green">Salvar</a>
+                </div>
+            </div>
+        </div>
+    </div>
