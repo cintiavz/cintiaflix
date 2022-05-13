@@ -1,0 +1,19 @@
+.editar{
+    background-color: aqua;
+}.excluir{
+    background-color: red;
+}
+
+body{
+    background-color: #e3e3e3;
+}
+
+
+.incluir{
+    background-color: aliceblue;
+}
+
+h1{
+    background-color: black;
+    color: azure;
+}
